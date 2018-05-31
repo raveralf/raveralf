@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebisu</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+	<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#togglewelcome').click(function(){
+				$('#welcome').slideToggle(200);
+			});
+	});
+	</script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand navbar-link" href="#"><img src="assets/img/logo.jpg" id="logo"><strong> Ebisu</strong> Spa</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#">HOME PAGE</a></li>
+                    <li role="presentation"><a href="#">LOGIN </a></li>
+                    <li role="presentation"><a href="#">CONTACT US </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>Ebisu Spa </h1>
+            <p>Massage is needed by our body to help our blood circulation and is not just beneficial for our body but the most important of all is that it soothes the mind.</p>
+            <p><a class="btn btn-default" role="button"  id="togglewelcome">Learn more</a></p>
+        </div>
+    </div>
+    <div class="container site-section" id="welcome" >
+        <h1><strong>Ebisu</strong> </h1>
+        <p> Proper application of pressure will relax the mind and get the right amount of oxygen needed by our brain to combat toxic chemicals which is caused by anxiety and stress with our daily work and routine. Health is Wealth</p>
+    </div>
+    <div class="dark-section">
+        <div class="container site-section" id="why">
+            <h1><strong>Why to choose us</strong></h1>
+            <div class="row">
+                <div class="col-md-4"><i class="fa fa-user"></i>
+                    <h2>Best offer</h2>
+                    <p>maraming magandang babae</p>
+                </div>
+                <div class="col-md-4"><i class="fa fa-user"></i>
+                    <h2>Great Deal</h2>
+                    <p>Lahat virgin</p>
+                </div>
+                <div class="col-md-4"><i class="fa fa-user"></i>
+                    <h2>Well trained</h2>
+                    <p>Papaligayahin ka namen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
